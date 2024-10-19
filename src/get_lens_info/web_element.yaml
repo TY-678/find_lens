@@ -1,0 +1,12 @@
+xpath:
+  items: //tbody/tr[@class='hidden-xs']
+  product_brand_element:  .//td[1]
+  post_url_element: .//td[2]/a
+  sell_status_element:  .//td[2]/a//span[@class='btn btn-xs btn-info']
+  buy_status_element:  .//td[2]/a//span[@class='btn btn-xs btn-warning']
+  
+  item_description_element: .//td[2]/a//span[@class='h5']
+  item_price_element: .//td[3]/small[@class='price']
+  seller_name_element:  .//td[4]//a
+  posted_date_element:  .//td[5]/small
+
